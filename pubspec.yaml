@@ -1,0 +1,30 @@
+name: open_mail
+description: "A new Flutter plugin project."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  platform: ^3.1.5
+  plugin_platform_interface: ^2.0.2
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.open.mail.open_mail
+        pluginClass: OpenMailPlugin
+      ios:
+        pluginClass: OpenMailPlugin
