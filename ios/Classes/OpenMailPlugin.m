@@ -1,6 +1,6 @@
 #import "OpenMailPlugin.h"
 #if __has_include(<open_mail/open_mail-Swift.h>)
-#import <open_mail_app/open_mail_app-Swift.h>
+#import <open_mail_app/open_mail-Swift.h>
 #else
 // Support project import fallback if the generated compatibility header
 // is not copied when this plugin is created as a library.
