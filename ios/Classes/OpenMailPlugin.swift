@@ -4,7 +4,7 @@ import UIKit
 public class SwiftOpenMailPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "open_mail", binaryMessenger: registrar.messenger())
-    let instance = OpenMailPlugin()
+    let instance = SwiftOpenMailPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 }
