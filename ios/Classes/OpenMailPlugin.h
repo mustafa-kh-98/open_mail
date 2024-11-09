@@ -1,4 +1,4 @@
 #import <Flutter/Flutter.h>
 
-@interface OpenMailAppPlugin : NSObject<FlutterPlugin>
+@interface OpenMailPlugin : NSObject<FlutterPlugin>
 @end
